@@ -6,11 +6,11 @@ class Config
 {
     private static $instance;
 
-    private string $dbDriver = 'mysql';
-    private string $host = 'localhost';
-    private string $dbName = 'db_tree';
-    private string $dbUser = 'bc-serj';
-    private string $dbUserPass = '21051991';
+    private string $dbDriver = '';
+    private string $host = '';
+    private string $dbName = '';
+    private string $dbUser = '';
+    private string $dbUserPass = '';
 
 
     public static function getInstance()
